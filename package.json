@@ -1,0 +1,29 @@
+{
+  "name": "@mdheri/cli-test",
+  "version": "1.0.0",
+  "description": "test build for a cli tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdheri/cli-test.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "mdheri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdheri/cli-test/issues"
+  },
+  "homepage": "https://github.com/mdheri/cli-test#readme",
+  "bin": {
+    "generate": "./bin/generate.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "mocha-clean": "^1.0.0"
+  }
+}
